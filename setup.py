@@ -15,10 +15,7 @@ tests_require = [
     "flake8-debugger==3.1.0"
 ]
 
-
-install_requires = [
-    'wagtail>=2,<2.10'
-]
+install_requires = ['wagtail>=2,<2.11']
 
 documentation_extras = [
     'sphinxcontrib-spelling>=2.3.0',
